@@ -1,1 +1,21 @@
+// TODO: Extend Enemy
+    public class Dragon extends Enemy{
+    public Dragon(int health, int damage, String name){
+        super(health,damage,name);
+    }
+    @Override
+    public void update(){
+        System.out.println(name+ " circles the battlefield from above.");
+    }
+    @Override
+    public void attack(){
+        System.out.println(name+ " breathes a massive fire blast");
+    }
+        // TODO: Create constructor (call super)
+
+        // TODO: Implement update()
+
+        // TODO: Implement attack()
+    }
+
 
